@@ -19,13 +19,15 @@ When You Install the dependencies run this progra via npm or npx<br>
   
   // using npx
   npx run
-```<br>
+```
+<br>
 
 to Run json Server in the data folder first install json-server library
 to install json server write this commnad on your terminal<br>
 ```javascript
   npm install json-server
-```<br>
+```
+<br>
 to run json-server 
 ```javascript
   json-server --watch ./data/db.json --port 8000
