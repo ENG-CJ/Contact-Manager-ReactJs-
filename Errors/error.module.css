@@ -1,0 +1,30 @@
+.error_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.error_icon{
+    padding: 7px 0px;
+}
+.error_icon i{
+    font-size: 90px;
+    color: rgba(83, 13, 8, 0.671);
+}
+.error_content .content{
+    text-align: center;
+    font-family: poppins;
+    font-size: 39px;
+    font-weight: bold;
+    color: rgba(233, 8, 8, 0.719);
+}
+.error_content p{
+    color: #656565;
+    opacity: 0.7;
+    font-weight: bold;
+}

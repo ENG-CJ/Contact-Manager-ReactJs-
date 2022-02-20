@@ -1,0 +1,36 @@
+form{
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    margin: 10px 90px; 
+}
+.form_content{
+    margin-bottom: 30px;
+}
+.form_content label{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.form_content input{
+    display: block;
+    width: 400px;
+    padding: 8px;
+    border: 1px solid #2b2b2b;
+    outline: none;
+    font-family: poppins;
+}
+
+.form_content input:focus{
+    border: 1px solid green;
+}
+.add{
+    width: 150px;
+    padding: 8px;
+    border: none;
+    background-color: rgb(34, 104, 34);
+    color: #fff;
+    font-family: poppins;
+    border-radius: 15px;
+    cursor: pointer;
+}

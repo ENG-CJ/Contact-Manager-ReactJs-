@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(65, 55, 65);
+    padding: 10px;
+}
+.logo .title{
+    font-size: 24px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.avatar{
+    border: 2px solid #fff;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    color: #fff;
+    font-family: poppins;
+    text-transform: uppercase;
+    font-size: 19px;
+    margin: 0px 20px;
+    
+   
+}
+.links{
+    text-decoration: none;
+}

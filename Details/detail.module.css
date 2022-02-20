@@ -1,0 +1,82 @@
+.detail_container{
+    padding: 50px 120px;
+    margin: 30px 170px;
+    display: flex;
+}
+.about_user{
+    margin: 0px 120px;
+}
+
+.user_profile .user_img{
+    padding: 0px 0px 7px 0px;
+}
+.user_img img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 1px solid #88797b;
+    transition:  0.4s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 6px rgba(0,0,0,0.06);
+}
+.user_img img:hover{
+    transform: translateY(-10px);
+}
+.user_title{
+    padding: 9px 0px 9px 0px;
+    text-align: center;
+}
+.user_title h2{
+    font-family: poppins;
+    font-weight: 700;
+    color: rgba(44, 11, 155, 0.897);
+}
+.actions{
+    text-align: center;
+}
+.actions .delete{
+    margin: 0px 10px;
+    width: 90px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid red;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 28px;
+
+}
+.edit{
+    margin: 0px 10px;
+    width: 90px;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid green;
+    color: green;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 28px;
+
+}
+
+.about_user{
+    display: flex;
+    flex-direction: column;
+}
+.user_email,.user_university,.user_track,.about{
+    border: 1px solid #c9c2c3;
+    width: 490px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.user_email h4,.user_university h4,
+.user_track h4,.about h4{
+    font-family: poppins;
+    color: rgb(182, 49, 49);
+}
+.about_user p{
+    color: #8b8383;
+    font-family: sans-serif;
+}

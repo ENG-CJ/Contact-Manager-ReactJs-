@@ -1,0 +1,49 @@
+.buttons{
+    padding: 30px 40px;
+    margin-left:15%;
+}
+.buttons .add{
+    width: 130px;
+    padding: 8px;
+    background-color: #6c3fff;
+    color: #fff;
+    border: none;
+    border-radius: 19px;
+    font-family: sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+.user_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.user_details {
+    display: flex;
+    align-items: center;
+}
+.user_title{
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+}
+.user_title .title h2{
+   font-family: poppins;
+   color: #6c3fff;
+}
+.actions{
+    display: flex;
+    align-items: center;
+}
+.actions i{
+    margin: 0px 10px;
+}
+
+.tag{
+    color: #2b2b2b;
+    transition:  all 0.8s ease-in-out;
+}
+.tag i{
+    font-size: 20px;
+}
