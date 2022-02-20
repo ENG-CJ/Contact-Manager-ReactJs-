@@ -9,7 +9,6 @@ only source code install the dependencies
 ```javascript
 npm install create-react-app
 ```
-<br>
 ## Tips
 When You Install the dependencies run this progra via npm or npx<br>
 ```javascript
@@ -20,7 +19,6 @@ When You Install the dependencies run this progra via npm or npx<br>
   // using npx
   npx run
 ```
-<br>
 
 to Run json Server in the data folder first install json-server library
 to install json server write this commnad on your terminal<br>
