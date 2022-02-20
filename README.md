@@ -25,7 +25,6 @@ to install json server write this commnad on your terminal<br>
 ```javascript
   npm install json-server
 ```
-<br>
 to run json-server 
 ```javascript
   json-server --watch ./data/db.json --port 8000
